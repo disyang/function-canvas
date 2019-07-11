@@ -29,6 +29,6 @@ const canvas = document.querySelector('canvas');
 const context = canvas.getContext('2d');
 rect(10, 10, 100, 50, 5, '#409EFF', context);
 ```
-<div align='center'><img src='https://github.com/yht1989/function-canvas/blob/master/canvas/img/rect-radius.png' /></div>  
+<img src='https://github.com/yht1989/function-canvas/blob/master/canvas/img/rect-radius.png' />
 
 <br>[⬆ Back to top](#contents)
