@@ -1,4 +1,4 @@
-## 🔌 Canvas
+## 📚 Canvas
 
 ### rect-radius
 Creates a function that accepts up to `7` arguments, `x` is x coordinate, `y` is y coordinate, `w` is width, `h` is height, `r` is radius, `c` is color, `context` is canvas's context. Creates a rect with radius.
@@ -22,8 +22,7 @@ function rect(x, y, w, h, r = 0, c = '#000', context) {
   }
 }
 ```
-<details>
-<summary>Demo</summary>
+### Demo
 
 ```js
 const canvas = document.querySelector('canvas');
@@ -31,7 +30,5 @@ const context = canvas.getContext('2d');
 rect(10, 10, 100, 50, 5, '#409EFF', context);
 ```
 <div align='center'><img src='https://github.com/yht1989/function-canvas/blob/master/canvas/img/rect-radius.png' /></div>  
-
-</details>
 
 <br>[⬆ Back to top](#contents)
