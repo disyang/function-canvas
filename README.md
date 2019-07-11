@@ -32,3 +32,5 @@ rect(10, 10, 100, 50, 5, '#409EFF', context);
 <div align=center><img src='https://github.com/yht1989/function-canvas/blob/master/canvas/img/rect-radius.png' /></div>
 
 <br>[⬆ Back to top](#contents)
+
+---
