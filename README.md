@@ -22,7 +22,7 @@ function rect(x, y, w, h, r = 0, c = '#000', context) {
   }
 }
 ```
-### Demo
+### demo
 
 ```js
 const canvas = document.querySelector('canvas');
