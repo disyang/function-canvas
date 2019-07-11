@@ -5,6 +5,7 @@ Creates a function that accepts up to `7` arguments, `x` is x coordinate, `y` is
 
 ```js
 function rect(x, y, w, h, r = 0, c = '#000', context) {
+  context.save()
   context.beginPath();
   context.fillStyle = c;
   if(r === 0) context.fillRect(x, y, w, h);
@@ -20,6 +21,7 @@ function rect(x, y, w, h, r = 0, c = '#000', context) {
     context.closePath();
     context.fill();
   }
+  context.restore();
 }
 ```
 <details>
@@ -32,8 +34,7 @@ rect(10, 10, 100, 50, 5, '#409EFF', context);
 ```
 <div align=center><img src='https://github.com/yht1989/function-canvas/blob/master/canvas/img/rect-radius.png' /></div>
 
-</details>
-
+</details>  
 <br>[⬆ Back to top](#contents)
 
 ---
